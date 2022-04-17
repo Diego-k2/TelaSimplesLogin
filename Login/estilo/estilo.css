@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background: url("..//imagens/background.png");
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 0 0 7.5px 0;
+    font-size: 20px
+}
+
+input[type=email], input[type=password] {
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 200;
+    width: 300px;
+    font-size: 18px;
+}
+
+input[type=button] {
+    width: 70%;
+    margin: 5px auto;
+    padding: 5px;
+    transition-duration: 0.5s ;
+    font-size: 16px;
+    font-weight: 50;
+    color: #fff;
+    background: #401f64;
+}
+
+input[type=button]:hover {
+    background: #554566;
+}
+
+input {
+    border-radius: 3px;
+    border-style: none;
+}
+
+h1 {
+    margin: 0 0 10px 0;
+    font-size: 40px;
+}
+
+.centraliza-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2%;
+    border-radius: 5px;
+}
+
+
